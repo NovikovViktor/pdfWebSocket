@@ -1,0 +1,13 @@
+server:
+  port: 9876
+  servlet:
+    application-display-name: pdf-web-socket
+    context-path: /ws-pdf
+spring:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+      indent_output: true
+
+novikov:
+  tempPath: pdf/tempPath
